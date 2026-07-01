@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <title>Academic Report Card - John Doe</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #f3f4f6; color: #1f2937; margin: 0; padding: 40px 20px; }
+        .report-container { max-width: 900px; margin: 0 auto; background: #ffffff; padding: 40px; border-radius: 16px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05), 0 4px 6px -2px rgba(0,0,0,0.02); border-top: 8px solid #1e3a8a; }
+        .header-section { display: flex; justify-content: space-between; border-bottom: 2px solid #e5e7eb; padding-bottom: 20px; margin-bottom: 30px; }
+        .institution-details h1 { margin: 0; font-size: 24px; color: #1e3a8a; font-weight: 700; letter-spacing: -0.025em; }
+        .institution-details p { margin: 5px 0 0; color: #6b7280; font-size: 14px; }
+        .report-title { text-align: right; }
+        .report-title h2 { margin: 0; font-size: 22px; color: #111827; font-weight: 700; }
+        .report-title p { margin: 5px 0 0; color: #9ca3af; font-size: 12px; }
+        .info-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; background-color: #f8fafc; padding: 20px; border-radius: 10px; margin-bottom: 30px; border: 1px solid #f1f5f9; }
+        .info-item { font-size: 14px; }
+        .info-item span { display: block; font-size: 11px; text-transform: uppercase; color: #64748b; font-weight: 600; letter-spacing: 0.05em; margin-bottom: 4px; }
+        .info-item strong { color: #0f172a; font-size: 15px; }
+        table { width: 100%; border-collapse: collapse; text-align: left; margin-bottom: 30px; font-size: 14px; }
+        th { background-color: #1e3a8a; color: #ffffff; padding: 12px 16px; font-weight: 600; text-transform: uppercase; font-size: 11px; letter-spacing: 0.05em; }
+        td { padding: 12px 16px; border-bottom: 1px solid #e2e8f0; }
+        tr:nth-child(even) td { background-color: #f8fafc; }
+        .center { text-align: center; }
+        .bold { font-weight: 600; }
+        .sub-code { font-size: 12px; color: #64748b; }
+        .grade-cell { color: #1e3a8a; }
+        .summary-banner { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-bottom: 35px; text-align: center; }
+        .summary-card { background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 12px; padding: 15px; }
+        .summary-card.accent { background: #f0fdf4; border-color: #bbf7d0; }
+        .summary-card span { font-size: 11px; text-transform: uppercase; color: #475569; font-weight: 600; letter-spacing: 0.05em; display: block; margin-bottom: 5px; }
+        .summary-card h3 { margin: 0; font-size: 24px; color: #1e40af; font-weight: 700; }
+        .summary-card.accent h3 { color: #166534; }
+        .section-title { font-size: 16px; font-weight: 600; color: #1e3a8a; border-left: 4px solid #1e3a8a; padding-left: 10px; margin-bottom: 20px; margin-top: 10px; }
+        .ai-recommendations { background-color: #fcfcfd; border: 1px dashed #d1d5db; border-radius: 12px; padding: 25px; margin-bottom: 35px; }
+        .ai-card { background: #ffffff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 15px; margin-bottom: 15px; box-shadow: 0 1px 3px rgba(0,0,0,0.02); }
+        .ai-card h4 { margin: 0 0 10px 0; color: #374151; font-size: 15px; border-bottom: 1px solid #f3f4f6; padding-bottom: 8px; }
+        .ai-card h4 .projected { color: #16a34a; font-weight: 700; }
+        .ai-details p { margin: 5px 0; font-size: 13px; color: #4b5563; }
+        .ai-details ul { margin: 8px 0 0 0; padding-left: 20px; font-size: 13px; color: #4b5563; }
+        .ai-details li { margin-bottom: 4px; }
+        .no-weakness { color: #166534; font-weight: 500; font-size: 14px; margin: 0; }
+        .remarks-signatures { display: grid; grid-template-columns: 2fr 1fr; gap: 40px; margin-top: 40px; border-top: 1px solid #e5e7eb; padding-top: 30px; }
+        .remarks-box { font-size: 14px; color: #4b5563; background: #fafafa; padding: 15px; border-radius: 8px; border: 1px solid #f0f0f0; min-height: 80px; }
+        .signature-box { display: flex; flex-direction: column; justify-content: flex-end; align-items: center; border-top: 1px solid #9ca3af; height: 80px; font-size: 12px; color: #6b7280; margin-top: 35px; }
+        .footer { text-align: center; font-size: 11px; color: #9ca3af; margin-top: 40px; border-top: 1px solid #f3f4f6; padding-top: 15px; }
+        @media print {
+            body { background: #ffffff; padding: 0; }
+            .report-container { box-shadow: none; border: none; padding: 0; }
+            button { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class='report-container'>
+        <div class='header-section'>
+            <div class='institution-details'>
+                <h1>METROPOLITAN ACADEMY</h1>
+                <p>Central Institute of Analytics and Academics</p>
+            </div>
+            <div class='report-title'>
+                <h2>OFFICIAL GRADE CARD</h2>
+                <p>Generated: 2026-07-01 05:00:29</p>
+            </div>
+        </div>
+        
+        <div class='info-grid'>
+            <div class='info-item'><span>Student Name</span><strong>John Doe</strong></div>
+            <div class='info-item'><span>Student ID</span><strong>STU1001</strong></div>
+            <div class='info-item'><span>Roll Number</span><strong>1001</strong></div>
+            <div class='info-item'><span>Class / Grade</span><strong>Class 10</strong></div>
+            <div class='info-item'><span>Section</span><strong>A</strong></div>
+            <div class='info-item'><span>Contact Email</span><strong>john.doe@email.com</strong></div>
+        </div>
+        
+        <div class='summary-banner'>
+            <div class='summary-card'>
+                <span>Average Percentage</span>
+                <h3>74.1%</h3>
+            </div>
+            <div class='summary-card'>
+                <span>Cumulative GPA</span>
+                <h3>2.75</h3>
+            </div>
+            <div class='summary-card accent'>
+                <span>Attendance Rate</span>
+                <h3>100.0%</h3>
+            </div>
+            <div class='summary-card'>
+                <span>Class Rank</span>
+                <h3>#2</h3>
+            </div>
+        </div>
+        
+        <div class='section-title'>ACADEMIC PERFORMANCE LOG</div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th class='center'>Credits</th>
+                    <th class='center'>Assignment (15%)</th>
+                    <th class='center'>Quiz (15%)</th>
+                    <th class='center'>Mid-Term (30%)</th>
+                    <th class='center'>Final (30%)</th>
+                    <th class='center'>Internal (10%)</th>
+                    <th class='center'>Total (100)</th>
+                    <th class='center'>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>  <td><strong>Mathematics</strong> <span class='sub-code'>(MATH-101)</span></td>  <td class='center'>4</td>  <td class='center'>79.8</td>  <td class='center'>77.2</td>  <td class='center'>76.5</td>  <td class='center'>80.7</td>  <td class='center'>80.3</td>  <td class='center bold'>78.8</td>  <td class='center bold grade-cell'>B</td></tr><tr>  <td><strong>English Lit.</strong> <span class='sub-code'>(ENGL-103)</span></td>  <td class='center'>3</td>  <td class='center'>69.1</td>  <td class='center'>70.2</td>  <td class='center'>73.3</td>  <td class='center'>75.5</td>  <td class='center'>70.2</td>  <td class='center bold'>72.6</td>  <td class='center bold grade-cell'>B</td></tr><tr>  <td><strong>Computer Sci.</strong> <span class='sub-code'>(COMP-105)</span></td>  <td class='center'>4</td>  <td class='center'>78.6</td>  <td class='center'>76.7</td>  <td class='center'>80.2</td>  <td class='center'>75.8</td>  <td class='center'>80.6</td>  <td class='center bold'>78.1</td>  <td class='center bold grade-cell'>B</td></tr><tr>  <td><strong>Physics</strong> <span class='sub-code'>(PHYS-102)</span></td>  <td class='center'>4</td>  <td class='center'>66.5</td>  <td class='center'>68.0</td>  <td class='center'>66.7</td>  <td class='center'>66.9</td>  <td class='center'>67.0</td>  <td class='center bold'>66.9</td>  <td class='center bold grade-cell'>C</td></tr>
+            </tbody>
+        </table>
+        
+        <div class='section-title'>AI PERFORMANCE RECOMMENDATIONS</div>
+        <div class='ai-recommendations'>
+            <div class='ai-card'>  <h4>Mathematics (MATH-101) — Target Grade: <span class='projected'>B</span></h4>  <div class='ai-details'>    <p><strong>Focus Areas:</strong> </p>    <p><strong>Actionable Recommendations:</strong></p>    <ul>    </ul>  </div></div><div class='ai-card'>  <h4>English Lit. (ENGL-103) — Target Grade: <span class='projected'>B</span></h4>  <div class='ai-details'>    <p><strong>Focus Areas:</strong> </p>    <p><strong>Actionable Recommendations:</strong></p>    <ul><li>Dedicate at least 3 dedicated hours per week to practice problem sets.</li><li>Create summary charts of key formulas/vocabulary for quick memory checks.</li>    </ul>  </div></div><div class='ai-card'>  <h4>Computer Sci. (COMP-105) — Target Grade: <span class='projected'>B</span></h4>  <div class='ai-details'>    <p><strong>Focus Areas:</strong> </p>    <p><strong>Actionable Recommendations:</strong></p>    <ul>    </ul>  </div></div><div class='ai-card'>  <h4>Physics (PHYS-102) — Target Grade: <span class='projected'>C</span></h4>  <div class='ai-details'>    <p><strong>Focus Areas:</strong> </p>    <p><strong>Actionable Recommendations:</strong></p>    <ul><li>Dedicate at least 3 dedicated hours per week to practice problem sets.</li><li>Create summary charts of key formulas/vocabulary for quick memory checks.</li>    </ul>  </div></div>
+        </div>
+        
+        <div class='remarks-signatures'>
+            <div>
+                <div class='bold' style='margin-bottom: 8px;'>Class Teacher Remarks:</div>
+                <div class='remarks-box'>
+                    Needs targeted support in weaker subjects. Attendance must be maintained and suggestions by the AI Recommendation system should be closely followed.
+                </div>
+            </div>
+            <div>
+                <div class='signature-box'>
+                    Class Advisor Signature
+                </div>
+            </div>
+        </div>
+        
+        <div class='footer'>
+            <p>Metropolitan Academy Student Grade Management System • Confidential Educational Record</p>
+        </div>
+    </div>
+</body>
+</html>
