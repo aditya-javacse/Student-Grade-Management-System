@@ -1,4 +1,4 @@
-# 🎓 AI-Powered Smart Student Performance Analytics System
+﻿# ðŸŽ“ AI-Powered Smart Student Performance Analytics System
 
 <p align="center">
 
@@ -16,111 +16,111 @@ The project follows professional software engineering principles including **MVC
 
 ---
 
-# ✨ Highlights
+# âœ¨ Highlights
 
-- 🔐 Secure Role-Based Authentication (Admin, Teacher, Student)
-- 📊 Real-time Academic Analytics Dashboard
-- 📈 Interactive Graphics2D Charts
-- 🤖 AI-Based Study Recommendations
-- 🎯 Automatic GPA & Grade Calculation
-- 🏆 Student & Subject Ranking System
-- 📅 Attendance Tracking & Monitoring
-- 📄 HTML Report Card Generator
-- 📑 CSV Report Export
-- ⚡ Multithreaded Report Processing
-- 🔒 SHA-256 Password Encryption
-- 💾 Native CSV Database (No SQL Required)
-- 🧩 Clean MVC + DAO Architecture
+- ðŸ” Secure Role-Based Authentication (Admin, Teacher, Student)
+- ðŸ“Š Real-time Academic Analytics Dashboard
+- ðŸ“ˆ Interactive Graphics2D Charts
+- ðŸ¤– AI-Based Study Recommendations
+- ðŸŽ¯ Automatic GPA & Grade Calculation
+- ðŸ† Student & Subject Ranking System
+- ðŸ“… Attendance Tracking & Monitoring
+- ðŸ“„ HTML Report Card Generator
+- ðŸ“‘ CSV Report Export
+- âš¡ Multithreaded Report Processing
+- ðŸ”’ SHA-256 Password Encryption
+- ðŸ’¾ Native CSV Database (No SQL Required)
+- ðŸ§© Clean MVC + DAO Architecture
 
 ---
 
-# 🖼️ Application Screenshots
+# ðŸ–¼ï¸ Application Screenshots
 
-> Replace the image paths below with your own screenshots.
+> Replace the image paths below with your own Screenshots.
 
-## 🔐 Login Screen
+## ðŸ” Login Screen
 
 <p align="center">
-<img src="screenshots/login.png" width="800">
+<img src="Screenshots/login.png" width="800">
 </p>
 
 ---
 
-## 📊 Admin Dashboard
+## ðŸ“Š Admin Dashboard
 
 <p align="center">
-<img src="screenshots/admin-dashboard.png" width="800">
+<img src="Screenshots/admin-dashboard.png" width="800">
 </p>
 
 ---
 
-## 👨‍🏫 Teacher Dashboard
+## ðŸ‘¨â€ðŸ« Teacher Dashboard
 
 <p align="center">
-<img src="screenshots/teacher-dashboard.png" width="800">
+<img src="Screenshots/teacher-dashboard.png" width="800">
 </p>
 
 ---
 
-## 🎓 Student Dashboard
+## ðŸŽ“ Student Dashboard
 
 <p align="center">
-<img src="screenshots/student-dashboard.png" width="800">
+<img src="Screenshots/student-dashboard.png" width="800">
 </p>
 
 ---
 
-## 📈 Analytics Dashboard
+## ðŸ“ˆ Analytics Dashboard
 
 <p align="center">
-<img src="screenshots/analytics.png" width="800">
+<img src="Screenshots/analytics.png" width="800">
 </p>
 
 ---
 
-## 📉 Performance Charts
+## ðŸ“‰ Performance Charts
 
 <p align="center">
-<img src="screenshots/charts.png" width="800">
+<img src="Screenshots/charts.png" width="800">
 </p>
 
 ---
 
-## 📝 Marks Management
+## ðŸ“ Marks Management
 
 <p align="center">
-<img src="screenshots/marks.png" width="800">
+<img src="Screenshots/marks.png" width="800">
 </p>
 
 ---
 
-## 📅 Attendance Management
+## ðŸ“… Attendance Management
 
 <p align="center">
-<img src="screenshots/attendance.png" width="800">
+<img src="Screenshots/attendance.png" width="800">
 </p>
 
 ---
 
-## 🤖 AI Study Recommendations
+## ðŸ¤– AI Study Recommendations
 
 <p align="center">
-<img src="screenshots/ai-recommendation.png" width="800">
+<img src="Screenshots/ai-recommendation.png" width="800">
 </p>
 
 ---
 
-## 📄 Generated HTML Report Card
+## ðŸ“„ Generated HTML Report Card
 
 <p align="center">
-<img src="screenshots/report-card.png" width="800">
+<img src="Screenshots/report-card.png" width="800">
 </p>
 
 ---
 
-# 🚀 Features
+# ðŸš€ Features
 
-## 🔐 Authentication & Security
+## ðŸ” Authentication & Security
 
 - Role-Based Access Control (RBAC)
 - Secure login system
@@ -131,7 +131,7 @@ The project follows professional software engineering principles including **MVC
 
 ---
 
-## 👨‍🎓 Student Management
+## ðŸ‘¨â€ðŸŽ“ Student Management
 
 - Student CRUD
 - Auto-generated Student IDs
@@ -141,7 +141,7 @@ The project follows professional software engineering principles including **MVC
 
 ---
 
-## 📚 Subject Management
+## ðŸ“š Subject Management
 
 - Subject CRUD
 - Automatic Subject IDs
@@ -151,7 +151,7 @@ The project follows professional software engineering principles including **MVC
 
 ---
 
-## 📝 Assessment & Grading
+## ðŸ“ Assessment & Grading
 
 ### Weighted Assessment System
 
@@ -174,7 +174,7 @@ Features
 
 ---
 
-## 🎓 GPA Scale
+## ðŸŽ“ GPA Scale
 
 | Grade | GPA |
 |------|------|
@@ -187,7 +187,7 @@ Features
 
 ---
 
-## 📅 Attendance System
+## ðŸ“… Attendance System
 
 - Daily attendance
 - Present / Absent / Late
@@ -197,13 +197,13 @@ Features
 
 ---
 
-## 📊 Analytics Dashboard
+## ðŸ“Š Analytics Dashboard
 
 Custom Graphics2D visualizations include:
 
-- 📊 Bar Charts
-- 📈 Line Graphs
-- 🍩 Donut Charts
+- ðŸ“Š Bar Charts
+- ðŸ“ˆ Line Graphs
+- ðŸ© Donut Charts
 
 Analytics include:
 
@@ -215,7 +215,7 @@ Analytics include:
 
 ---
 
-## 🤖 AI Performance Analysis
+## ðŸ¤– AI Performance Analysis
 
 The built-in AI module automatically analyzes student performance and provides intelligent recommendations.
 
@@ -230,7 +230,7 @@ The built-in AI module automatically analyzes student performance and provides i
 
 ---
 
-## 📄 Report Generation
+## ðŸ“„ Report Generation
 
 Runs on background threads to ensure the Swing interface remains responsive.
 
@@ -255,7 +255,7 @@ Professional printable report cards containing:
 
 ---
 
-# 🏗️ Project Architecture
+# ðŸ—ï¸ Project Architecture
 
 ```
                 +-------------------+
@@ -290,41 +290,41 @@ Architecture Patterns
 
 ---
 
-# 📂 Project Structure
+# ðŸ“‚ Project Structure
 
 ```text
 Student-Grade-Management-System/
-│
-├── analytics/
-├── dao/
-├── data/
-├── model/
-├── reports/
-├── service/
-├── util/
-├── view/
-│
-├── screenshots/
-│   ├── login.png
-│   ├── admin-dashboard.png
-│   ├── teacher-dashboard.png
-│   ├── student-dashboard.png
-│   ├── analytics.png
-│   ├── charts.png
-│   ├── attendance.png
-│   ├── marks.png
-│   ├── ai-recommendation.png
-│   └── report-card.png
-│
-├── Main.java
-├── run.ps1
-├── run.bat
-└── README.md
+â”‚
+â”œâ”€â”€ analytics/
+â”œâ”€â”€ dao/
+â”œâ”€â”€ data/
+â”œâ”€â”€ model/
+â”œâ”€â”€ reports/
+â”œâ”€â”€ service/
+â”œâ”€â”€ util/
+â”œâ”€â”€ view/
+â”‚
+â”œâ”€â”€ Screenshots/
+â”‚   â”œâ”€â”€ login.png
+â”‚   â”œâ”€â”€ admin-dashboard.png
+â”‚   â”œâ”€â”€ teacher-dashboard.png
+â”‚   â”œâ”€â”€ student-dashboard.png
+â”‚   â”œâ”€â”€ analytics.png
+â”‚   â”œâ”€â”€ charts.png
+â”‚   â”œâ”€â”€ attendance.png
+â”‚   â”œâ”€â”€ marks.png
+â”‚   â”œâ”€â”€ ai-recommendation.png
+â”‚   â””â”€â”€ report-card.png
+â”‚
+â”œâ”€â”€ Main.java
+â”œâ”€â”€ run.ps1
+â”œâ”€â”€ run.bat
+â””â”€â”€ README.md
 ```
 
 ---
 
-# ⚙️ Requirements
+# âš™ï¸ Requirements
 
 - Java JDK 17+
 - Windows 10/11
@@ -336,7 +336,7 @@ Tested on
 
 ---
 
-# ▶️ Running the Project
+# â–¶ï¸ Running the Project
 
 ## PowerShell (Recommended)
 
@@ -362,15 +362,15 @@ Or simply double-click **run.bat**.
 
 ---
 
-# 🔑 Default Login Credentials
+# ðŸ”‘ Default Login Credentials
 
 | Role | Username | Password |
 |------|----------|----------|
-| 👑 Admin | admin | admin123 |
-| 👨‍🏫 Teacher | teacher | teacher123 |
-| 🎓 Student | stu1001 | student123 |
+| ðŸ‘‘ Admin | admin | admin123 |
+| ðŸ‘¨â€ðŸ« Teacher | teacher | teacher123 |
+| ðŸŽ“ Student | stu1001 | student123 |
 
-All student accounts (`stu1001` → `stu1015`) use:
+All student accounts (`stu1001` â†’ `stu1015`) use:
 
 ```
 Password: student123
@@ -378,7 +378,7 @@ Password: student123
 
 ---
 
-# 🧪 Automated Testing
+# ðŸ§ª Automated Testing
 
 The project includes a built-in unit testing framework.
 
@@ -410,7 +410,7 @@ SUCCESS
 
 ---
 
-# 💡 Technologies Used
+# ðŸ’¡ Technologies Used
 
 - Java
 - Java Swing
@@ -426,21 +426,21 @@ SUCCESS
 
 ---
 
-# 🎯 Future Enhancements
+# ðŸŽ¯ Future Enhancements
 
-- 📱 Mobile Companion App
-- ☁ Cloud Database Support
-- 📧 Email Notifications
-- 📊 PDF Report Generation
-- 🔍 Advanced Search Filters
-- 🌙 Dark Mode
-- 🌐 REST API Integration
-- 🔔 Live Notifications
-- 📈 Machine Learning Grade Prediction
+- ðŸ“± Mobile Companion App
+- â˜ Cloud Database Support
+- ðŸ“§ Email Notifications
+- ðŸ“Š PDF Report Generation
+- ðŸ” Advanced Search Filters
+- ðŸŒ™ Dark Mode
+- ðŸŒ REST API Integration
+- ðŸ”” Live Notifications
+- ðŸ“ˆ Machine Learning Grade Prediction
 
 ---
 
-# ⭐ Project Showcase
+# â­ Project Showcase
 
 This project demonstrates practical implementation of:
 
@@ -459,8 +459,8 @@ This project demonstrates practical implementation of:
 
 <p align="center">
 
-### ⭐ If you found this project helpful, consider giving it a star!
+### â­ If you found this project helpful, consider giving it a star!
 
-**Made with ❤️ using Java & Java Swing**
+**Made with â¤ï¸ using Java & Java Swing**
 
 </p>
