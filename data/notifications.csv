@@ -1,0 +1,4 @@
+notificationId,studentId,title,message,date,isRead
+NOT1001,STU1001,Welcome to Portal,Welcome to your Student Performance Suite. Check your AI Recommendations daily.,2026-07-01,false
+NOT1002,STU1003,Performance Notice,Low marks recorded in Mathematics. Click AI recommendations tab for guidance.,2026-07-01,false
+NOT1003,STU1004,Attendance Warning,Your attendance is 50.00%. A minimum of 75% is required for exams.,2026-07-01,false

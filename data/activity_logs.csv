@@ -1,0 +1,40 @@
+timestamp,username,role,actionDetails
+2026-07-01 00:19:15,SYSTEM,SYSTEM,Initializing mock database seeding...
+2026-07-01 00:19:23,SYSTEM,SYSTEM,Mock database successfully seeded with initial mock sets
+2026-07-01 00:19:23,admin,ADMIN,User logged in successfully
+2026-07-01 00:19:23,admin,UNKNOWN,Failed login attempt: Invalid password
+2026-07-01 00:19:23,admin,ADMIN,Password reset via security question
+2026-07-01 00:19:23,admin,ADMIN,User logged in successfully
+2026-07-01 00:19:23,admin,ADMIN,Password reset via security question
+2026-07-01 00:19:23,admin,ADMIN,User logged out
+2026-07-01 00:19:23,SYSTEM,SYSTEM,Added student: Test Student (STU1016) and auto-provisioned user account
+2026-07-01 00:19:23,SYSTEM,SYSTEM,Deleted student: Test Student (STU1016) and cascade cleared all records
+2026-07-01 00:50:34,admin,ADMIN,User logged in successfully
+2026-07-01 00:50:34,admin,UNKNOWN,Failed login attempt: Invalid password
+2026-07-01 00:50:34,admin,ADMIN,Password reset via security question
+2026-07-01 00:50:34,admin,ADMIN,User logged in successfully
+2026-07-01 00:50:34,admin,ADMIN,Password reset via security question
+2026-07-01 00:50:34,admin,ADMIN,User logged out
+2026-07-01 00:50:34,SYSTEM,SYSTEM,Added student: Test Student (STU1016) and auto-provisioned user account
+2026-07-01 00:50:35,SYSTEM,SYSTEM,Deleted student: Test Student (STU1016) and cascade cleared all records
+2026-07-01 02:39:38,admin,UNKNOWN,Failed login attempt: Invalid password
+2026-07-01 02:39:55,admin,UNKNOWN,Failed login attempt: Invalid password
+2026-07-01 02:39:56,admin,UNKNOWN,Failed login attempt: Invalid password
+2026-07-01 02:41:29,admin,UNKNOWN,Failed login attempt: Invalid password
+2026-07-01 02:41:38,admin,UNKNOWN,Failed login attempt: Invalid password
+2026-07-01 02:41:41,admin,UNKNOWN,Failed login attempt: Invalid password
+2026-07-01 02:41:53,admin,ADMIN,User logged in successfully
+2026-07-01 04:54:10,admin,ADMIN,User logged in successfully
+2026-07-01 04:55:34,admin,ADMIN,User logged in successfully
+2026-07-01 04:57:06,admin,ADMIN,User logged out
+2026-07-01 04:57:25,admin,ADMIN,User logged in successfully
+2026-07-01 04:58:21,admin,ADMIN,User logged out
+2026-07-01 04:58:43,teacher,TEACHER,User logged in successfully
+2026-07-01 04:59:29,teacher,TEACHER,User logged out
+2026-07-01 05:00:06,stu1001,STUDENT,User logged in successfully
+2026-07-01 05:07:55,stu1001,STUDENT,User logged out
+2026-07-01 05:08:10,admin,ADMIN,User logged in successfully
+2026-07-01 05:09:07,admin,ADMIN,User logged out
+2026-07-01 05:09:27,teacher,TEACHER,User logged in successfully
+2026-07-01 05:10:12,teacher,TEACHER,User logged out
+2026-07-01 05:10:29,stu1001,STUDENT,User logged in successfully
