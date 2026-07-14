@@ -1,344 +1,450 @@
-# 🚀 Personal Portfolio Website
+# 🎓 AI-Powered Smart Student Performance Analytics System
 
-A **premium, modern, fully responsive developer portfolio website** designed with a professional UI/UX inspired by Apple, Microsoft, and Stripe. This portfolio showcases skills, projects, experience, certifications, achievements, and contact information in an elegant and interactive way.
+<p align="center">
 
-Perfect for **internships, placements, freelancing, and professional networking**.
+![Java](https://img.shields.io/badge/Java-17%2B-orange?style=for-the-badge&logo=openjdk)
+![Swing](https://img.shields.io/badge/Java%20Swing-Desktop-blue?style=for-the-badge)
+![Architecture](https://img.shields.io/badge/Architecture-MVC-success?style=for-the-badge)
+![Persistence](https://img.shields.io/badge/Database-CSV%20Flat%20Files-green?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)
 
----
+</p>
 
-## 🌐 Live Demo
+A modern **institutional-grade desktop application** built entirely with **Core Java** and **Java Swing** for managing student performance, attendance, grading, analytics, and academic reporting.
 
-🔗 **Portfolio:** https://your-username.github.io/portfolio/
-
-> Replace the above link with your deployed GitHub Pages URL.
-
----
-
-# ✨ Features
-
-* 🎨 Premium Modern UI/UX
-* 🌙 Dark & Light Theme Toggle
-* 🪟 Glassmorphism Design
-* 💙 Blue, Purple & Cyan Gradient Theme
-* 📱 Fully Responsive (Desktop, Tablet & Mobile)
-* ⚡ Smooth Page Animations
-* ✨ Animated Hero Section
-* ⌨️ Typing Animation
-* 🎯 Sticky Floating Navigation
-* 📊 Animated Skill Progress Bars
-* 📂 Interactive Project Cards
-* 🏆 Achievement Counters
-* 📜 Education Timeline
-* 💼 Experience Timeline
-* 🎖 Certification Cards
-* 💬 Testimonial Slider
-* 📈 GitHub Statistics Section
-* 📞 Professional Contact Form
-* 🗺 Google Maps Integration
-* 🎉 Scroll Reveal Animations
-* 🎈 Animated Background
-* 🖱 Custom Cursor
-* 📍 Scroll Progress Bar
-* 🔝 Back to Top Button
-* ⚡ Fast Loading
-* 🔍 SEO Optimized
-* 🌐 GitHub Pages Ready
+The project follows professional software engineering principles including **MVC Architecture**, **DAO Pattern**, **Role-Based Access Control (RBAC)**, **SHA-256 Authentication**, **multithreading**, and **custom Graphics2D visual analytics** without relying on external libraries.
 
 ---
 
-# 🛠 Tech Stack
+# ✨ Highlights
 
-### Frontend
-
-* HTML5
-* CSS3
-* JavaScript (Vanilla)
-* Bootstrap 5
-
-### Libraries
-
-* AOS (Animate On Scroll)
-* Typed.js
-* Particles.js
-* Vanilla Tilt.js
-* Font Awesome
+- 🔐 Secure Role-Based Authentication (Admin, Teacher, Student)
+- 📊 Real-time Academic Analytics Dashboard
+- 📈 Interactive Graphics2D Charts
+- 🤖 AI-Based Study Recommendations
+- 🎯 Automatic GPA & Grade Calculation
+- 🏆 Student & Subject Ranking System
+- 📅 Attendance Tracking & Monitoring
+- 📄 HTML Report Card Generator
+- 📑 CSV Report Export
+- ⚡ Multithreaded Report Processing
+- 🔒 SHA-256 Password Encryption
+- 💾 Native CSV Database (No SQL Required)
+- 🧩 Clean MVC + DAO Architecture
 
 ---
 
-# 📁 Folder Structure
+# 🖼️ Application Screenshots
+
+> Replace the image paths below with your own Screenshots.
+
+## 🔐 Login Screen
+
+<p align="center">
+<img src="Screenshots/login.png" width="800">
+</p>
+
+---
+
+## 📊 Admin Dashboard
+
+<p align="center">
+<img src="Screenshots/admin-dashboard.png" width="800">
+</p>
+
+---
+
+## 👨‍🏫 Teacher Dashboard
+
+<p align="center">
+<img src="Screenshots/teacher-dashboard.png" width="800">
+</p>
+
+---
+
+## 🎓 Student Dashboard
+
+<p align="center">
+<img src="Screenshots/student-dashboard.png" width="800">
+</p>
+
+---
+
+## 📈 Analytics Dashboard
+
+<p align="center">
+<img src="Screenshots/analytics.png" width="800">
+</p>
+
+---
+
+
+## 📅 Attendance Management
+
+<p align="center">
+<img src="Screenshots/attendance.png" width="800">
+</p>
+
+---
+
+## 🤖 AI Study Recommendations
+
+<p align="center">
+<img src="Screenshots/ai-recommendation.png" width="800">
+</p>
+
+---
+
+## 📄 Generated HTML Report Card
+
+<p align="center">
+<img src="Screenshots/report-card.png" width="800">
+</p>
+
+---
+
+# 🚀 Features
+
+## 🔐 Authentication & Security
+
+- Role-Based Access Control (RBAC)
+- Secure login system
+- SHA-256 password hashing
+- Session management
+- Activity logging
+- Password recovery using security questions
+
+---
+
+## 👨‍🎓 Student Management
+
+- Student CRUD
+- Auto-generated Student IDs
+- Automatic portal account creation
+- Student search & filtering
+- Cascade deletion support
+
+---
+
+## 📚 Subject Management
+
+- Subject CRUD
+- Automatic Subject IDs
+- Enrollment management
+- Student-Subject junction table
+- Cascade cleanup
+
+---
+
+## 📝 Assessment & Grading
+
+### Weighted Assessment System
+
+| Component | Weight |
+|-----------|---------|
+| Assignments | 15% |
+| Quizzes | 15% |
+| Mid-Term | 30% |
+| Final Exam | 30% |
+| Internal Evaluation | 10% |
+
+#### Features
+- Automatic percentage calculation
+- Letter grade generation
+- GPA calculation
+- Class ranking
+- Subject ranking
+- Performance trends
+
+---
+
+## 🎓 GPA Scale
+
+| Grade | GPA |
+|------|------|
+| A+ | 4.0 |
+| A | 3.7 |
+| B | 3.0 |
+| C | 2.0 |
+| D | 1.0 |
+| F | 0.0 |
+
+---
+
+## 📅 Attendance System
+
+- Daily attendance
+- Present / Absent / Late
+- Attendance percentage
+- Warning notifications
+- Attendance history
+
+---
+
+## 📊 Analytics Dashboard
+
+Custom Graphics2D visualizations include:
+
+- 📊 Bar Charts
+- 📈 Line Graphs
+- 🍩 Donut Charts
+
+Analytics include:
+
+- Subject averages
+- Grade distributions
+- Student comparisons
+- Performance trends
+- Class statistics
+
+---
+
+## 🤖 AI Performance Analysis
+
+The built-in AI module automatically analyzes student performance and provides intelligent recommendations.
+
+### Features
+
+- Detects weak subjects
+- Identifies poor-performing assessments
+- Predicts final grades
+- Personalized study advice
+- Homework completion suggestions
+- Test preparation recommendations
+
+---
+
+## 📄 Report Generation
+
+Runs on background threads to ensure the Swing interface remains responsive.
+
+### CSV Reports
+
+- Student Grades
+- GPA Reports
+- Subject Statistics
+- Attendance Reports
+
+### HTML Report Cards
+
+Professional printable report cards containing:
+
+- Student Profile
+- Grades
+- GPA
+- Attendance
+- Charts
+- AI Recommendations
+- Signature Blocks
+
+---
+
+# 🏗️ Project Architecture
+
+```
+                +-------------------+
+                |       View        |
+                |   Java Swing UI   |
+                +---------+---------+
+                          |
+                          |
+                +---------v---------+
+                |     Services      |
+                | Business Logic    |
+                +---------+---------+
+                          |
+                +---------v---------+
+                |        DAO        |
+                | CSV File Storage  |
+                +---------+---------+
+                          |
+                +---------v---------+
+                |      Models       |
+                |      POJOs         |
+                +-------------------+
+```
+
+Architecture Patterns
+
+- MVC
+- DAO
+- Service Layer
+- Object-Oriented Design
+- Layered Architecture
+
+---
+
+# 📂 Project Structure
 
 ```text
-Portfolio/
+Student Grade Management System/ (Root Directory)
 │
-├── index.html
-├── README.md
-├── favicon.ico
+├── analytics/
+├── dao/
+├── data/
+├── model/
+├── reports/
+├── service/
+├── util/
+├── view/
 │
-├── assets/
-│   ├── css/
-│   │   ├── style.css
-│   │   ├── responsive.css
-│   │   └── animations.css
-│   │
-│   ├── js/
-│   │   ├── script.js
-│   │   └── particles-config.js
-│   │
-│   ├── images/
-│   │   ├── profile.png
-│   │   ├── projects/
-│   │   └── certificates/
-│   │
-│   └── resume/
-│       └── Aditya_Mishra_Resume.pdf
+├── Screenshots/
+│   ├── login.png
+│   ├── admin-dashboard.png
+│   ├── teacher-dashboard.png
+│   ├── student-dashboard.png
+│   ├── analytics.png
+    ├── charts.png
+│   ├── attendance.png
+│   ├── marks.png
+│   ├── ai-recommendation.png
+│   └── report-card.png
 │
-└── LICENSE
+├── Main.java
+├── run.ps1
+├── run.bat
+└── README.md
 ```
 
 ---
 
-# 👨‍💻 Portfolio Sections
+# ⚙️ Requirements
 
-* Hero
-* About Me
-* Skills
-* Featured Projects
-* Experience
-* Education
-* Certifications
-* Achievements
-* Services
-* Testimonials
-* GitHub Statistics
-* Contact
-* Footer
+- Java JDK 17+
+- Windows 10/11
+- PowerShell or Command Prompt
+
+Tested on
+
+- OpenJDK 26
 
 ---
 
-# 💻 Skills
+# ▶️ Running the Project
 
-## Programming Languages
+## PowerShell (Recommended)
 
-* Java
-* Python
-* C
-* SQL
-* HTML5
-* CSS3
-* JavaScript
-
-## Frameworks
-
-* Spring Boot
-* Bootstrap
-
-## Database
-
-* MySQL
-
-## Tools
-
-* Git
-* GitHub
-* VS Code
-* IntelliJ IDEA
-* Eclipse
-
----
-
-# 🚀 Featured Projects
-
-## 📦 ERP Inventory Management System
-
-### Features
-
-* Java Swing
-* JDBC
-* MySQL
-* MVC Architecture
-* Inventory Management
-* Reports
-* Charts
-* Barcode Generation
-* PDF Invoice Generation
-
----
-
-## 📝 Advanced Online Quiz Management System
-
-### Features
-
-* Spring Boot
-* Authentication
-* Admin Dashboard
-* Leaderboard
-* Certificate Generation
-* MySQL Database
-
----
-
-## 🤖 AI Powered Smart Student Performance Analytics System
-
-### Features
-
-* Java
-* File Handling
-* Student Analytics
-* Performance Reports
-* Charts & Graphs
-
----
-
-# 💼 Experience
-
-## TechNova Internship
-
-**Role:** Web Development Intern
-
-### Responsibilities
-
-* Developed responsive web pages
-* Worked with HTML, CSS, JavaScript, and Bootstrap
-* Improved UI/UX
-* Collaborated with the development team
-* Optimized website performance
-
----
-
-# 🎓 Education
-
-### B.Tech – Computer Science & Engineering (AI)
-
-Current Pursuing
-
----
-
-### Intermediate
-
-Completed
-
----
-
-### High School
-
-Completed
-
----
-
-# 🏆 Achievements
-
-* Multiple Academic Projects
-* Internship Experience
-* Technical Certifications
-* Coding Problem Solving
-* GitHub Project Contributions
-
----
-
-# 📜 Certifications
-
-* Java Programming
-* Python Programming
-* SQL & Database
-* Web Development
-* AI & Machine Learning
-
----
-
-# 📸 Screenshots
-
-Add screenshots of your portfolio here.
-
-```text
-assets/images/screenshots/
+```powershell
+.\run.ps1
 ```
 
-Example:
+If PowerShell blocks execution:
 
-* Home Page
-* About Section
-* Skills
-* Projects
-* Contact
-
----
-
-# ⚙ Installation
-
-Clone the repository.
-
-```bash
-git clone https://github.com/your-username/portfolio.git
+```powershell
+powershell -ExecutionPolicy Bypass -File .\run.ps1
 ```
 
-Open the project folder.
+---
 
-```bash
-cd portfolio
+## Command Prompt
+
+```cmd
+run.bat
 ```
 
-Run locally by opening `index.html` in your browser or using a local development server.
+Or simply double-click **run.bat**.
 
 ---
 
-# 🌍 Deployment
+# 🔑 Default Login Credentials
 
-## GitHub Pages
+| Role | Username | Password |
+|------|----------|----------|
+| 👑 Admin | admin | admin123 |
+| 👨‍🏫 Teacher | teacher | teacher123 |
+| 🎓 Student | stu1001 | student123 |
 
-1. Push the project to GitHub.
-2. Open **Repository Settings**.
-3. Go to **Pages**.
-4. Select the `main` branch.
-5. Save the settings.
-6. Your portfolio will be published.
+All student accounts (`stu1001` → `stu1015`) use:
 
----
-
-# 📈 Future Improvements
-
-* Blog Section
-* Admin Panel
-* Project Filtering
-* EmailJS Contact Form
-* PWA Support
-* Multi-language Support
-* CMS Integration
+```
+Password: student123
+```
 
 ---
 
-# 📬 Contact
+# 🧪 Automated Testing
 
-**Aditya Mishra**
+The project includes a built-in unit testing framework.
 
-* 💼 Role: Java Full Stack Developer | AI & ML Student | Problem Solver
-* 📧 Email: [your-email@example.com](mailto:your-email@example.com)
-* 📱 Phone: +91-XXXXXXXXXX
-* 📍 Location: India
+Execute:
 
----
+```powershell
+Get-ChildItem -Recurse -Filter *.java |
+Resolve-Path -Relative |
+Out-File -Encoding ascii sources.txt
 
-# 🤝 Contributing
+& "C:\Users\Computer solution\.jdks\openjdk-26.0.1\bin\javac.exe" `
+-encoding UTF-8 -d bin "@sources.txt"
 
-Contributions, suggestions, and improvements are welcome.
+Remove-Item sources.txt
 
-1. Fork the repository.
-2. Create a new branch.
-3. Commit your changes.
-4. Push the branch.
-5. Open a Pull Request.
+& "C:\Users\Computer solution\.jdks\openjdk-26.0.1\bin\java.exe" `
+-cp bin util.TestRunner
+```
 
----
+Expected Output
 
-# ⭐ Support
+```
+TEST RUN COMPLETE
 
-If you found this project helpful, consider giving it a **⭐ Star** on GitHub. It helps others discover the project and motivates future improvements.
+30 / 30 ASSERTS PASSED
 
----
-
-# 📄 License
-
-This project is licensed under the **MIT License**.
+SUCCESS
+```
 
 ---
 
-## Developed with ❤️ by Aditya Mishra
+# 💡 Technologies Used
+
+- Java
+- Java Swing
+- Graphics2D
+- Core Java
+- MVC Architecture
+- DAO Pattern
+- CSV File Storage
+- SHA-256
+- Multithreading
+- HTML/CSS
+- Object-Oriented Programming
+
+---
+
+# 🎯 Future Enhancements
+
+- 📱 Mobile Companion App
+- ☁️ Cloud Database Support
+- 📧 Email Notifications
+- 📊 PDF Report Generation
+- 🔍 Advanced Search Filters
+- 🌙 Dark Mode
+- 🌐 REST API Integration
+- 🔔 Live Notifications
+- 📈 Machine Learning Grade Prediction
+
+---
+
+# ⭐ Project Showcase
+
+This project demonstrates practical implementation of:
+
+- Enterprise Desktop Development
+- MVC Architecture
+- DAO Pattern
+- File-Based Database Systems
+- Data Visualization
+- AI-Based Analytics
+- Java Multithreading
+- Authentication & Security
+- Professional UI Development
+- Academic Performance Analytics
+
+---
+
+<p align="center">
+
+### ⭐ If you found this project helpful, consider giving it a star!
+
+**Made with ❤️ using Java & Java Swing**
+
+</p>

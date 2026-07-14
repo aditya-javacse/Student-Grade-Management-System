@@ -38,3 +38,4 @@ timestamp,username,role,actionDetails
 2026-07-01 05:09:27,teacher,TEACHER,User logged in successfully
 2026-07-01 05:10:12,teacher,TEACHER,User logged out
 2026-07-01 05:10:29,stu1001,STUDENT,User logged in successfully
+2026-07-14 12:33:07,admin,ADMIN,User logged in successfully
